@@ -1,6 +1,6 @@
 # gh-action-buildnum Changelog
 
-## 2.0.0 - 2023-11-xx
+## 2.0.0 - 2023-11-21
 
 ### Changed
 - Use `node16` as the action runner.
