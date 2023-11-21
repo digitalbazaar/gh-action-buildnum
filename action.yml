@@ -17,7 +17,7 @@ inputs:
       The integrated GITHUB_TOKEN that is normally accessible during a Workflow does not
       include read/write permissions to associated Gists, therefore a separate token is
       needed.  You can control which account is used to actually store the state by
-      generating a token associated with the target account. 
+      generating a token associated with the target account.
 
   repo_full_name:
     required: false
@@ -75,5 +75,5 @@ branding:
 ## Even though the Action logic may be implemented
 ## in PWSH, we still need a NodeJS entry point
 runs:
-  using: node12
+  using: node16
   main: _init/index.js
