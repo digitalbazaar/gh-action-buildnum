@@ -1,6 +1,6 @@
 # gh-action-buildnum Changelog
 
-## 2.0.1 - TBD
+## 2.0.1 - 2024-02-05
 
 ### Fixed
 - Add "Content-Type" header which is required Power Shell `pwsh@7.4`.
