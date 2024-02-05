@@ -4,6 +4,7 @@
 
 ### Fixed
 - Add "Content-Type" header which is required Power Shell `pwsh@7.4`.
+- Use `node20` as the action runner.
 
 ## 2.0.0 - 2023-11-21
 
