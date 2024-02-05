@@ -32,8 +32,9 @@ Write-ActionInfo "Resolved State Gist Name.....: [$stateGistName]"
 
 $gistsApiUrl = "https://api.github.com/gists"
 $apiHeaders = @{
-    Accept        = "application/vnd.github.v2+json"
-    Authorization = "token $gist_token"
+    Accept         = "application/vnd.github.v2+json"
+    Authorization  = "token $gist_token"
+    "Content-Type" =  "application/json"
 }
 
 $stateGistBanner = @"
